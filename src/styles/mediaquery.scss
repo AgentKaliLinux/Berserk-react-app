@@ -6,6 +6,16 @@
             height: 120vh;
         }
     }
+
+    .Pagenotfound{
+        > h1 {
+            font: 900 2.8rem cursive;
+        }
+
+        > p {
+            font: 900 16px cursive;
+        }
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -82,4 +92,13 @@
         }
     }
 
+    .Pagenotfound{
+        > h1 {
+            font: 900 20px cursive;
+        }
+
+        > p {
+            font: 900 10px italic cursive;
+        }
+    }
 }
